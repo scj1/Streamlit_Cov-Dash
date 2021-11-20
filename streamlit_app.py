@@ -77,8 +77,10 @@ st.metric('Total recovered', yesterday_recoveries)
 
 st.bar_chart(daily_df[data_type])
 with st.spinner('Fishing for Data'):
-            time.sleep(5)
- st.success('Done!')
+     time.sleep(5)
+st.success('Done!')
+           
+
 
 
 
