@@ -1,10 +1,6 @@
 import pandas as pd
 import streamlit as st
 from libraries import *
-from streamlit_player import st_player
-
-
-
 
 
 
@@ -81,7 +77,7 @@ st.metric('Total recovered', yesterday_recoveries)
 
 st.bar_chart(daily_df[data_type])
 st.balloons()
-st_player("https://www.youtube.com/watch?v=oqFn6AHoJZQ")
+
 
 
 lib_code_contents = '''
