@@ -65,10 +65,10 @@ yesterday_recoveries = get_yesterday_recoveries(country)
 
 st.title('Covid Dashboard')
 
-col1, col2 = st.columns(3)
-st.col1.metric('Country', country)
 
-st.col2.image(f"https://flagcdn.com/80x60/{country_code[country]}.png")
+st.metric('Country', country)
+
+st.image(f"https://flagcdn.com/80x60/{country_code[country]}.png")
 
 st.metric('Total Cases', yesterday_cases)
 
