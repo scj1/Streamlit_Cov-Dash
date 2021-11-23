@@ -30,7 +30,7 @@ st.sidebar.write("  ")
 
 
 with st.sidebar.expander("About"):
-         st.write( "Developed by Dinuja de Silva")
+         st.write( "Developed by Casual Coders")
 
 with st.sidebar.expander("Version"):
     st.write("1.0.1")
