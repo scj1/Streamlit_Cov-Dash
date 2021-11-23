@@ -77,9 +77,6 @@ st.metric('Total recovered', yesterday_recoveries)
 
 st.bar_chart(daily_df[data_type])
 
-st.spinner(text="Fishing for Data...")
-
-
 
 
 lib_code_contents = '''
