@@ -65,6 +65,8 @@ yesterday_recoveries = get_yesterday_recoveries(country)
 
 st.title('Covid Dashboard')
 
+col1,col2,col3 = st.colmuns(3)
+
 
 st.metric('Country', country)
 
