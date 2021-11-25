@@ -73,7 +73,7 @@ column1.metric('Total Cases', yesterday_cases)
 column2.metric('Total Deaths', yesterday_deaths)
 column3.metric('Total recovered', yesterday_recoveries)
 
-st.metric('Total Cases', yesterday_cases)
+
 
 st.metric('Total Deaths', yesterday_deaths)
 
