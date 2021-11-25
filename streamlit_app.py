@@ -82,7 +82,7 @@ st.metric('Total recovered', yesterday_recoveries)
 
 st.info('Hi! You must pick Data types and the number of Days you want to see!')
 
-st.plotly_chart(daily_df[data_type])
+st.bar_chart(daily_df[data_type])
 
 
 
