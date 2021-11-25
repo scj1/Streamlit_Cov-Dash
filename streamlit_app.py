@@ -30,10 +30,10 @@ st.sidebar.write("  ")
 
 
 with st.sidebar.expander("About"):
-         st.write( "Developed by Casual ")
+         st.write( "Developed by Casual Coders of Meu Labs ")
 
 with st.sidebar.expander("Version"):
-    st.write("1.0.1")
+    st.write("2.1.0")
 
 
 
@@ -78,6 +78,8 @@ st.metric('Total Cases', yesterday_cases)
 st.metric('Total Deaths', yesterday_deaths)
 
 st.metric('Total recovered', yesterday_recoveries)
+
+st.info('Hi! You must pick Data types and the number of Days you want to see!')
 
 st.bar_chart(daily_df[data_type])
 
