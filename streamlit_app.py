@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 from libraries import *
- import plotly.tools
+import plotly.tools
 
 
 
