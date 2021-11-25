@@ -83,8 +83,13 @@ st.info('Hi! You must pick Data types and the number of Days you want to see!')
 
 st.bar_chart(daily_df[data_type])
 
+st.video('https://www.youtube.com/watch?v=oqFn6AHoJZQ')
+
+st.warning('Please wear a Mask and Stay Safe!')
 
 
+
+st.info('Below buttons are to download these codes')
 lib_code_contents = '''
 import requests
 import pandas as pd
