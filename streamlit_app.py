@@ -63,7 +63,7 @@ yesterday_deaths = get_yesterday_deaths(country)
 
 yesterday_recoveries = get_yesterday_recoveries(country)
 
-st.title('Covid Dashboard')
+st.title('🧫Covid Dashboard💉')
 
 col1, col2 = st.columns(2)
 column1, column2, column3 = st.columns(3)
