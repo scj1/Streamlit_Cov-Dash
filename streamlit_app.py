@@ -16,10 +16,10 @@ country = st.sidebar.selectbox('Pick a country', countries)
 
 
 
-days = st.sidebar.slider('Pick your days', min_value=1,max_value=90)
+days = st.sidebar.slider('Choose your number days', min_value=1,max_value=90)
 
 
-data_type = st.sidebar.multiselect('Pick data types', data_types)
+data_type = st.sidebar.multiselect('Pick your  data types', data_types)
 
 st.sidebar.write("  ")
 st.sidebar.write("  ")
@@ -86,6 +86,8 @@ st.bar_chart(daily_df[data_type])
 st.video('https://www.youtube.com/watch?v=oqFn6AHoJZQ')
 
 st.warning('Please wear a Mask and Stay Safe!')
+
+st.header("Thank You for using our Covid Dashboard")
 
 
 
