@@ -87,7 +87,7 @@ st.video('https://www.youtube.com/watch?v=oqFn6AHoJZQ')
 
 st.warning('Please wear a Mask and Stay Safe!')
 
-st.header("Thank You for using our Covid Dashboard")
+st.subheader("Thank You for using our Covid Dashboard")
 
 
 
