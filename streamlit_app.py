@@ -6,6 +6,20 @@ from libraries import *
 
 st.set_page_config(page_title='Covid Dashboard', page_icon="💉")
 
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background: url("https://www.who.int/images/default-source/mca/mca-covid-19/coronavirus-2.tmb-1024v.jpg?Culture=en&sfvrsn=4dba955c_6")
+    }
+   .sidebar .sidebar-content {
+        background: url("https://www.who.int/images/default-source/mca/mca-covid-19/coronavirus-2.tmb-1024v.jpg?Culture=en&sfvrsn=4dba955c_6")
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 
 countries = ['Australia', 'China','India','Italy', 'Japan', 'USA', 'UK', 'Sri Lanka', 'Spain', 'Brazil']
 country_code = {'Australia': 'au', 'China': 'cn', 'India': 'in', 'Italy':'it', 'Japan': 'jp', 'USA': 'us', 'UK': 'gb', 'Sri Lanka': 'lk', 'Spain': 'es', 'Brazil':'br'}
