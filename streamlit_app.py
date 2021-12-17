@@ -10,10 +10,10 @@ st.markdown(
     """
     <style>
     .reportview-container {
-        background: url("https://images.unsplash.com/flagged/photo-1584036561584-b03c19da874c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80")
+        background: url("http://wp.bssnews.net/wp-content/uploads/2020/05/GettyImages-1209679043.jpg")
     }
    .sidebar .sidebar-content {
-        background: url("https://images.unsplash.com/flagged/photo-1584036561584-b03c19da874c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80")
+        background: url("http://wp.bssnews.net/wp-content/uploads/2020/05/GettyImages-1209679043.jpg")
     }
     </style>
     """,
