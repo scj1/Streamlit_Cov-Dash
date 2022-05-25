@@ -20,6 +20,34 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+t = st.radio("Change font!", [True, False])
+
+if t:
+    st.markdown(
+        """
+        <style>
+@font-face {
+  font-family: 'Tangerine';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+    html, body, [class*="css"]  {
+    font-family: 'Tangerine';
+    font-size: 48px;
+    }
+    </style>
+
+    """,
+        unsafe_allow_html=True,
+    )
+
+"# Hello"
+
+"""This font will look different, based on your choice of radio button"""
+
 
 countries = ['Australia', 'China','India','Italy', 'Japan', 'USA', 'UK', 'Sri Lanka', 'Spain', 'Brazil']
 country_code = {'Australia': 'au', 'China': 'cn', 'India': 'in', 'Italy':'it', 'Japan': 'jp', 'USA': 'us', 'UK': 'gb', 'Sri Lanka': 'lk', 'Spain': 'es', 'Brazil':'br'}
